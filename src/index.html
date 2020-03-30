@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="styles/styles.scss" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
     <title>Escape Box : Steampunk</title>
   </head>
   <body>
@@ -26,10 +32,35 @@
       />
     </section>
     <section class="description">
-      <span class="description__caracteristic">Carac1</span>
-      <span class="description__caracteristic">Carac2</span>
-      <span class="description__caracteristic">Carac3</span>
-      <p class="description__text">Description text</p>
+      <figure class="description__caracteristic">
+        <i class="fas fa-user-clock description__icon"></i>
+        <figcaption>60 mn</figcaption>
+      </figure>
+      <figure class="description__caracteristic">
+        <i class="fas fa-users description__icon"></i>
+        <figcaption>4-7</figcaption>
+      </figure>
+      <figure class="description__caracteristic">
+        <i class="fas fa-child"></i>
+        <figcaption>14+</figcaption>
+      </figure>
+      <div class="description__text">
+        <h1>Auteur : Frederic DORNE</h1>
+        <h2>Un escape game où vous voulez, quand vous voulez !</h2>
+        <p>
+          Vous avez 60 minutes pour espérer sortir vivant ! Trois scénarios
+          différents avec des niveaux de difficulté facile, moyen et expert.<br />
+          Depuis des semaines, un zeppelin fou, le Relempago, arpente les cieux.
+          Il a tué tout son équipage, et des robots à sa solde capturent de
+          nouvelles victimes. Vous voilà à votre tour enfermés à bord du navire
+          volant ! Vous allez devoir résoudre les énigmes de la machine, la
+          mettre hors d’état de nuire et la poser au sol pour espérer être les
+          premiers à raconter votre aventure à bord du dirigeable.<br />
+          Vous avez 60 minutes, pas une de plus, si vous voulez mettre fin à
+          cette horreur ! Inclus : un poster et une bande-son d’une heure pour
+          vous immerger totalement dans une ambiance steampunk !
+        </p>
+      </div>
     </section>
     <section class="shopping">
       <div class="shopping__add">
@@ -37,8 +68,27 @@
         <button class="shopping__validate">Ajouter au panier</button>
       </div>
       <div class="shops">
-        <img src="media/Logo-Fnac-PNG.png" alt="" />
+        <img
+          src="media/Logo-Fnac-PNG.png"
+          alt="Logo-Fnac-PNG"
+          class="shops__logo"
+        />
+        <img
+          src="media/Logo_espace_culturel_leclerc.png"
+          alt="Logo-Fnac-PNG"
+          class="shops__logo"
+        />
+        <img
+          src="media/logo_amazon.png"
+          alt="Logo-Fnac-PNG"
+          class="shops__logo"
+        />
       </div>
     </section>
+    <footer>
+      <a class="brand" href="https://www.lisez.com/404-editions/24"
+        >404 éditions</a
+      >
+    </footer>
   </body>
 </html>

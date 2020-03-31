@@ -1,0 +1,33 @@
+.shopping {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shops {
+  width: 90%;
+  height: 30%;
+  background-color: lime;
+}
+
+.shopping__add {
+  font-size: 2em;
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@include desktop {
+  .shopping {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .shops {
+    width: 70%;
+  }
+}

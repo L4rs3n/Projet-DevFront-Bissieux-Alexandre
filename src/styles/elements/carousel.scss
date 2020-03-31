@@ -1,0 +1,22 @@
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+.carousel__items {
+  display: flex;
+  overflow-x: scroll;
+  padding: 1rem 0;
+}
+.carousel__item {
+  margin-left: 1rem;
+}
+
+@include desktop {
+  .carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

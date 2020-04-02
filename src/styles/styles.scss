@@ -4,10 +4,31 @@
 @import "elements/shopping.scss";
 @import "elements/footer.scss";
 @import "elements/header.scss";
+
+@font-face {
+  font-family: "Valeria";
+  src: url("elements/ValeriaBoldGrunge.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title__secondary {
+  font-family: "Valeria", "sans-serif" !important;
+}
+
 * {
   box-sizing: border-box;
   font-size: 8px;
   text-align: center;
+}
+
+h1,
+h2,
+p,
+figcaption,
+a,
+button {
+  font-family: "Lato", "sans-serif" !important;
 }
 
 footer,
@@ -22,19 +43,18 @@ img {
 
 header {
   height: 100px;
-  background-color: lightblue;
-}
-
-.description {
-  background-color: lightseagreen;
-}
-
-.shopping {
-  height: 300px;
-  background-color: lightsalmon;
 }
 
 footer {
   height: 50px;
-  background-color: lightsteelblue;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
 }

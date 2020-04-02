@@ -4,4 +4,9 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.title__secondary {
+  font-family: "Valeria", "sans-serif" !important;
 }

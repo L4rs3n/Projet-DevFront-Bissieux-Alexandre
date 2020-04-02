@@ -7,13 +7,10 @@
 
 @font-face {
   font-family: "Valeria";
-  src: url("elements/ValeriaBoldGrunge.ttf") format("ttf");
+  src: url("elements/ValeriaBoldGrunge.ttf") format("ttf"),
+    url("elements/ValeriaBoldGrunge.otf") format("otf");
   font-weight: normal;
   font-style: normal;
-}
-
-.title__secondary {
-  font-family: "Valeria", "sans-serif" !important;
 }
 
 * {
@@ -57,4 +54,13 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+.separation {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  border-top: 1px solid #dbdbdb;
+  margin: 15px auto;
 }

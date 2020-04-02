@@ -10,7 +10,7 @@ button {
   margin-top: 10px;
 }
 
-.row {
+.shopping {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -51,12 +51,6 @@ button {
 }
 
 @include desktop {
-  .shopping {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
   .shops {
     width: 70%;
   }
